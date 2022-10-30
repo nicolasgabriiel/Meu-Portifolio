@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+body{ font-family: 'Signika';}
+/*Cabeçalho*/
+header{
+    padding: 2% 20%;
+    background-color: #7f0000;
+}
+/*    logo   */
+.nome{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.nome h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Shalimar';
+    color: #fefefe;
+}
+.nome h1:first-child{
+    font-size: 60px ;
+}
+.nome h1:last-child{
+    font-size: 45px ;
+}
+
+/*Menu de Navegação*/
+
+.navegacao{
+    display: inline-block;
+    float: right;
+  
+}
+.navegacao nav{
+    margin-top: 40px;
+}
+
+.navegacao nav a{
+    font-size: 30px ;
+    font-weight:bold ;
+    padding-left: 3em;
+    color: #fefefe;
+    text-decoration: none;
+    
+}
+
+.navegacao nav a:hover{
+    color: #bbbbbb;
+    text-decoration: underline;
+
+}
+
+.clear{clear: both;}
+
+
+/*Rodapé*/
+
+footer{
+    padding: 1% 2%;
+    background-color: #7f0000;
+}
+footer .container{
+    margin: 10px auto;
+    text-align: center;
+    
+}
+footer p{
+    display: inline-block;
+    font-size: 25px;
+    color: #fefefe;
+    vertical-align: top;
+}
+.icones{
+  
+    width: 25px;
+    height: 25px;
+   background-color: #fefefe;;
+   border-radius: 5px;
+    display: inline-block;
+    opacity: 0.7;
+}
+.iconeum{
+    background-image: url(../images/gmail.png);
+    background-size: contain;
+}
+.iconedois{
+    background-image: url(../images/linkedin.png);
+    background-size: contain;
+}
+.iconetres{
+    background-image: url(../images/github.png);
+    background-size: contain;
+}
+
+.icones:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+/*      Responsivo      */
+
+@media screen and (max-width: 1460px) {
+    header{
+        padding: 2% 5%;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    .navegacao nav a{
+        display: block;
+        text-align: center;
+        vertical-align: text-top;
+        padding:0;
+        margin: 0;
+       
+    }
+    .navegacao nav{
+        display:inline-block;
+        margin:0;
+        padding: 2%;
+        
+    }
+    .navegacao{
+        width: 35%;
+        margin-top: 5px;
+    }   
+  
+}
+
+@media screen and (max-width: 480px) {
+    .nome h1:first-child{
+        font-size: 47px ;
+    }
+    .nome h1:last-child{
+        font-size: 38px ;
+    }
+    .navegacao nav a{
+        font-size: 23px ;
+    }
+    footer p{
+        font-size: 18px;
+        }
+    .icones{
+          
+        width: 18px;
+        height: 18px;
+       
+}}

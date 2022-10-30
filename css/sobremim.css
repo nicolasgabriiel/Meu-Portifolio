@@ -1,0 +1,140 @@
+main{
+    background-image: linear-gradient(to bottom right, #f05545, #b71c1c);
+    padding: 2% 0;
+}
+
+/*Sobre mim*/
+.sobremim{
+    max-width:940px;
+    padding: 3%;
+    background-color: #fefefe;
+    border-radius: 40px;
+    margin: 0 2%;
+}
+
+.sobremim h2{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.3s;
+}
+.sobremim h2:hover{
+    font-size: 51px;
+}
+.sobremim p{
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sobremim p::first-line{
+    margin-left: 20px;
+}
+/* Minhas Tecnologias */
+
+.tecnologias{
+    max-width:940px;
+    padding: 3%;
+    background-color: #fefefe;
+    border-radius: 40px;
+    margin:2%;
+    float: right;
+    
+}
+.tecnologias h3{
+    text-align: right;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 50px;
+    transition: 0.3s;
+}
+.tecnologias h3:hover{
+    font-size: 51px;
+}
+.tecnologias .container{
+    background-color: #fdfdfd;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+    width: calc(25% - 12px);
+    border-radius: 20px;
+    border: 4px solid black;
+    transition: 0.5s;
+}
+.tecnologias .container:hover{
+    scale: 1.05;
+    border-color: #333333;
+}
+
+.tecnologias h4{
+ font-size: 30px;
+ font-weight: bold;
+ text-align: center;
+ margin-bottom: 20px;
+}
+.tecnologias p{
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: justify;
+
+}
+
+.tecnologias .linguagem{
+    margin: 20px auto;
+    width: 50%;
+    height: 117px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.linguagemum{
+    background-image: url(../images/html5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.linguagemdois{
+    background-image: url(../images/css3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.linguagemtres{
+    background-image: url(../images/JavaScript.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*      Responsivo      */
+
+@media screen and (max-width: 1100px) {
+    .sobremim h2{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .sobremim p{
+        padding: 7%;
+    }
+    
+    .tecnologias .container{
+       display:block;
+       width: 40%;
+       margin: 5% auto;
+    }
+
+    .tecnologias h3{
+        text-align: center;
+        margin: 50px 0 40px 0;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .tecnologias .container{
+         width: 70%; 
+    }
+}

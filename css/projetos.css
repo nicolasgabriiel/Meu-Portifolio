@@ -1,0 +1,91 @@
+main{
+    background-image: linear-gradient(to bottom right, #f05545, #b71c1c);
+    padding: 2% 0;
+}
+
+/* projetos */
+.projetos{
+    background-color: #fefefe;
+    max-width: 940px;
+    margin: 0 auto ;
+    padding: 3%;
+    border-radius: 40px;
+}
+
+.projetos h2{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.3s;
+    text-align: center;
+}
+.projetos h2:hover{
+    font-size: 51px;
+}
+.container-projetos{
+    display: inline-block;
+    width: 33%;
+}
+
+.container-projetos h3{
+    text-align: center;
+    margin:40px auto 15px auto;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/*      imagem dos projetos        */
+
+.container-projetos .imagem-projetos{
+    width: 70%;
+    height: 120px;
+    margin: 0 auto;
+    transition: 0.5s;
+    border-radius: 20px;
+    border: 2px solid #333333;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-projetos .imagem-projetos:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.projetoum{
+    background-image: url(../images/pong.png);
+    background-color: black;
+}
+.projetodois{
+    background-image: url(../images/freeway.png);
+    background-color: #aaaaaa;
+}
+.projetotres{
+    background-image: url(../images/barbearia_alura.png);
+    background-color: #cccccc;
+}
+
+.projetoquatro, .projetocinco, .projetoseis{
+    background-image: url(../images/breve.jpg);
+}
+
+
+/*      responsivo    */
+
+@media screen and (max-width: 940px) {
+    
+    .container-projetos{
+        display: inline-block;
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .container-projetos{
+        display: block;
+        width: 100%;
+    }
+}

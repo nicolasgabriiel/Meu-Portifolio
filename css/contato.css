@@ -1,0 +1,97 @@
+main{
+    background-image: linear-gradient(to bottom right, #f05545, #b71c1c);
+    padding: 2%;
+}
+
+.contato{
+    max-width: 940px;
+    background-color: #fefefe ;
+    border-radius: 40px;
+    margin: 0 auto 50px auto;
+    padding: 3%;
+}
+.contato h2{
+    font-style: italic;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.3s;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.contato h3{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.3s;
+    text-align: center;
+    transition: 0.5s;
+    font-style: italic;
+}
+
+.contato h2:hover, h3:hover{
+    scale: 1.03;
+}
+
+.container-redes{
+    width: auto;
+    margin: 30px auto;
+    text-align: center;
+   
+}
+.container-redes p{
+    text-align: center;
+    margin:auto;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    
+    
+   
+}
+.container-redes a{
+    text-decoration: none;
+}
+.redes{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    background-size: contain ;
+    border-radius: 12.5px;
+}
+.redeum{background-image: url(../images/gmail.png);}
+.rededois{background-image: url(../images/linkedin.png);}
+.redetres{background-image: url(../images/github2.png);}
+.redequatro{background-image: url(../images/instagram.png);}
+.redecinco{background-image: url(../images/twitter.png);}
+.redeseis{background-image: url(../images/alura.png);}
+
+.centralizar{
+    display: inline-block;
+    width: auto;
+    background-color: black;
+    padding: 1% 2%;
+    border-radius: 20px;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.centralizar:hover{
+    color: #dedede;
+    scale: 1.05;
+    cursor:pointer;
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .container-redes p{
+        font-size: 18px;
+}
+    .container-redes .redes{
+        width: 18px;
+        height: 18px;
+    }
+
+}
