@@ -1,6 +1,6 @@
 main{
     background-image: linear-gradient(to bottom right, #f05545, #b71c1c);
-    padding: 2% 0;
+    padding: 2%;
 }
 
 /* projetos */
@@ -67,8 +67,15 @@ main{
     background-color: #cccccc;
 }
 
-.projetoquatro, .projetocinco, .projetoseis{
+.container-projetos .projetoquatro{
+    background-image: url(../images/midi.png);
+    background-size: cover;
+
+}
+
+.projetocinco, .projetoseis{
     background-image: url(../images/breve.jpg);
+    
 }
 
 
@@ -82,10 +89,13 @@ main{
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     
     .container-projetos{
         display: block;
         width: 100%;
+    }
+    main{
+        padding: 10%;
     }
 }

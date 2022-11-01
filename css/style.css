@@ -131,13 +131,14 @@ footer p{
 
 @media screen and (max-width: 480px) {
     .nome h1:first-child{
-        font-size: 47px ;
+        font-size: 35px ;
+        margin-top: 5px;
     }
     .nome h1:last-child{
-        font-size: 38px ;
+        font-size: 25px ;
     }
     .navegacao nav a{
-        font-size: 23px ;
+        font-size: 18px ;
     }
     footer p{
         font-size: 18px;

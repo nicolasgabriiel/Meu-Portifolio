@@ -89,24 +89,15 @@ main{
     background-color: #ffffff;
 }
 
-.linguagemum{
-    background-image: url(../images/html5.png);
+.tecnologias .linguagem{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-.linguagemdois{
-    background-image: url(../images/css3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.linguagemtres{
-    background-image: url(../images/JavaScript.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
+.tecnologias .linguagemum{background-image: url(../images/html5.png); background-size: 60%;}
+.tecnologias .linguagemdois{ background-image: url(../images/css3.png);}
+.tecnologias .linguagemtres{background-image: url(../images/JavaScript.png);}
 
 /*      Responsivo      */
 
@@ -130,11 +121,17 @@ main{
         text-align: center;
         margin: 50px 0 40px 0;
     }
+    main{
+        padding: 5%;
+    }
     
 }
 
 @media screen and (max-width: 600px){
     .tecnologias .container{
          width: 70%; 
+    }
+    main{
+        padding: 10%;
     }
 }

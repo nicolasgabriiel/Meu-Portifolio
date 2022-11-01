@@ -4,7 +4,7 @@ main{
 }
 
 .contato{
-    max-width: 940px;
+    max-width: 800px;
     background-color: #fefefe ;
     border-radius: 40px;
     margin: 0 auto 50px auto;
@@ -93,5 +93,22 @@ main{
         width: 18px;
         height: 18px;
     }
+    main{
+        padding: 10%;
+    }
 
+}
+
+
+@media screen and (max-width: 450px) {
+    .container-redes p{
+        font-size: 16px;
+}
+    .container-redes .redes{
+        width: 16px;
+        height: 16px;
+    }
+    main{
+        padding: 5%;
+    }
 }
