@@ -1,11 +1,10 @@
 main{
-    background-image: linear-gradient(to bottom right, #f05545, #b71c1c);
     padding: 2%;
 }
 
 .contato{
     max-width: 800px;
-    background-color: #fefefe ;
+    background-color: rgba(0,0,0,0.5);
     border-radius: 40px;
     margin: 0 auto 50px auto;
     padding: 3%;
@@ -18,6 +17,7 @@ main{
     transition: 0.3s;
     text-align: center;
     transition: 0.5s;
+    color: white;
 }
 
 .contato h3{
@@ -28,6 +28,7 @@ main{
     text-align: center;
     transition: 0.5s;
     font-style: italic;
+    color: white;
 }
 
 .contato h2:hover, h3:hover{
@@ -43,7 +44,7 @@ main{
 .container-redes p{
     text-align: center;
     margin:auto;
-    color: white;
+    color: black;
     font-size: 25px;
     display: inline-block;
     vertical-align: top;
@@ -72,11 +73,11 @@ main{
 .centralizar{
     display: inline-block;
     width: auto;
-    background-color: black;
+    background-color: white;
     padding: 1% 2%;
     border-radius: 20px;
     transition: 0.5s;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 .centralizar:hover{
     color: #dedede;

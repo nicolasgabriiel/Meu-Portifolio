@@ -2,9 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 body{ font-family: 'Signika';}
 /*Cabeçalho*/
+main{
+    background-image: url(../bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 header{
     padding: 2% 20%;
-    background-color: #7f0000;
+    background-image: linear-gradient(to bottom, #000000  0%, #060e19 100% );
+    border-bottom: 1px solid white;
 }
 /*    logo   */
 .nome{
@@ -58,7 +67,8 @@ header{
 
 footer{
     padding: 1% 2%;
-    background-color: #7f0000;
+    background-image: linear-gradient(to top, black 0%, #060e19 100%  );
+    border-top: 1px solid white;
 }
 footer .container{
     margin: 10px auto;
