@@ -5,5 +5,5 @@
 >Para Executar o Programa apenas:
 
 ```
-Execute o Index.html em qualquer navegador
+Execute o index.html em qualquer navegador
 ```
