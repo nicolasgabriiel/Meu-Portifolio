@@ -19,13 +19,17 @@ header{
 .nome{
     display: inline-block;
     margin: 0 auto;
+   
 }
-
+.nome a{
+    text-decoration: none;
+}
 .nome h1{
     text-align: center;
     font-weight: bold;
     font-family: 'Shalimar';
     color: #fefefe;
+   
 }
 .nome h1:first-child{
     font-size: 60px ;
@@ -55,7 +59,7 @@ header{
 }
 
 .navegacao nav a:hover{
-    color: #bbbbbb;
+    color: #666666;
     text-decoration: underline;
 
 }
